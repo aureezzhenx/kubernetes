@@ -1,0 +1,65 @@
+# ReplicaSet dari nginx-ReplicaSex-match-expression.yaml
+# DNS Services: http://service-nginx.default.svc.cluster.local:8080
+
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: nginx-rs-match-expression
+  labels:
+    app: nginx
+  annotations:
+    description: nginx replica set match expression joji belajar
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+    matchExpressions:
+      - key: app
+        operator: In
+        values:
+          - nginx
+      - key: environment
+        operator: In
+        values:
+          - development
+          - qa
+          - production
+  template:
+    metadata:
+      name: nginx
+      labels:
+        app: nginx
+        environment: production
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-nginx
+spec:
+  selector:
+    app: nginx ## Selector label dari Pod NGINX line 16
+  ports:
+  - port: 8080 ## Target port buat Services
+    targetPort: 80 ## Target port nembak dari pod NGINX
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-curl
+spec:
+  containers:
+    - name: nginx-curl
+      image: aureezzhenx/nginx-curl
+      ports:
+        - containerPort: 80

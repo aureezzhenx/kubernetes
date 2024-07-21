@@ -1,0 +1,333 @@
+
+==> Audit <==
+|--------------|--------------------------------|----------|------|---------|---------------------|---------------------|
+|   Command    |              Args              | Profile  | User | Version |     Start Time      |      End Time       |
+|--------------|--------------------------------|----------|------|---------|---------------------|---------------------|
+| update-check |                                | minikube | joji | v1.33.1 | 20 Jul 24 17:43 WIB | 20 Jul 24 17:43 WIB |
+| help         |                                | minikube | joji | v1.33.1 | 20 Jul 24 17:47 WIB | 20 Jul 24 17:47 WIB |
+| stop         |                                | minikube | joji | v1.33.1 | 20 Jul 24 17:47 WIB | 20 Jul 24 17:48 WIB |
+| stop         |                                | minikube | joji | v1.33.1 | 20 Jul 24 17:52 WIB | 20 Jul 24 17:52 WIB |
+| start        |                                | minikube | joji | v1.33.1 | 20 Jul 24 17:57 WIB | 20 Jul 24 17:57 WIB |
+| stop         |                                | minikube | joji | v1.33.1 | 20 Jul 24 18:36 WIB | 20 Jul 24 18:36 WIB |
+| stop         |                                | minikube | joji | v1.33.1 | 21 Jul 24 01:12 WIB | 21 Jul 24 01:12 WIB |
+| stop         |                                | minikube | joji | v1.33.1 | 21 Jul 24 01:12 WIB | 21 Jul 24 01:12 WIB |
+| stop         |                                | minikube | joji | v1.33.1 | 21 Jul 24 01:12 WIB | 21 Jul 24 01:12 WIB |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 01:12 WIB | 21 Jul 24 01:12 WIB |
+| start        | --profile=cluster2             | cluster2 | joji | v1.33.1 | 21 Jul 24 01:14 WIB | 21 Jul 24 01:14 WIB |
+| node         |                                | minikube | joji | v1.33.1 | 21 Jul 24 01:16 WIB |                     |
+| node         | list                           | minikube | joji | v1.33.1 | 21 Jul 24 01:16 WIB |                     |
+| delete       | -p cluster2                    | cluster2 | joji | v1.33.1 | 21 Jul 24 01:16 WIB | 21 Jul 24 01:16 WIB |
+| stop         |                                | minikube | joji | v1.33.1 | 21 Jul 24 01:17 WIB | 21 Jul 24 01:17 WIB |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 01:18 WIB | 21 Jul 24 01:18 WIB |
+| node         | list                           | minikube | joji | v1.33.1 | 21 Jul 24 01:18 WIB |                     |
+| stop         |                                | minikube | joji | v1.33.1 | 21 Jul 24 01:19 WIB | 21 Jul 24 01:19 WIB |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:23 WIB |                     |
+| delete       |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:24 WIB | 21 Jul 24 12:24 WIB |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:24 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:24 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:24 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:24 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:27 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:27 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:34 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:36 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:36 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:36 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:36 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:36 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:36 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:36 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:39 WIB |                     |
+| delete       |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:42 WIB | 21 Jul 24 12:42 WIB |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:42 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:44 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:45 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:47 WIB |                     |
+|              | --kubernetes-version v1.15.12  |          |      |         |                     |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:47 WIB |                     |
+|              | --kubernetes-version v1.15.12  |          |      |         |                     |                     |
+|              | --force                        |          |      |         |                     |                     |
+| config       | set driver virtualbox          | minikube | joji | v1.33.1 | 21 Jul 24 12:47 WIB | 21 Jul 24 12:47 WIB |
+| config       | set driver virtualbox          | minikube | joji | v1.33.1 | 21 Jul 24 12:47 WIB | 21 Jul 24 12:47 WIB |
+| start        | --kubernetes-version v1.15.12  | minikube | joji | v1.33.1 | 21 Jul 24 12:47 WIB |                     |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:47 WIB |                     |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:49 WIB |                     |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:50 WIB |                     |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:50 WIB |                     |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:50 WIB |                     |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:51 WIB |                     |
+| delete       |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:52 WIB | 21 Jul 24 12:52 WIB |
+| delete       |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:52 WIB | 21 Jul 24 12:52 WIB |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:52 WIB |                     |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:53 WIB |                     |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 12:54 WIB |                     |
+|              | --host-only-cidr               |          |      |         |                     |                     |
+|              | 192.168.59.1/24                |          |      |         |                     |                     |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:56 WIB |                     |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:57 WIB |                     |
+| start        |                                | minikube | joji | v1.33.1 | 21 Jul 24 12:59 WIB |                     |
+| delete       |                                | minikube | joji | v1.33.1 | 21 Jul 24 13:00 WIB | 21 Jul 24 13:00 WIB |
+| start        | --driver=virtualbox            | minikube | joji | v1.33.1 | 21 Jul 24 13:00 WIB |                     |
+|--------------|--------------------------------|----------|------|---------|---------------------|---------------------|
+
+
+==> Last Start <==
+Log file created at: 2024/07/21 13:00:44
+Running on machine: joji
+Binary: Built with gc go1.22.1 for linux/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0721 13:00:44.240010   42131 out.go:291] Setting OutFile to fd 1 ...
+I0721 13:00:44.240114   42131 out.go:304] Setting ErrFile to fd 2...
+I0721 13:00:44.240251   42131 root.go:338] Updating PATH: /home/joji/.minikube/bin
+I0721 13:00:44.240628   42131 out.go:298] Setting JSON to false
+I0721 13:00:44.241106   42131 start.go:129] hostinfo: {"hostname":"joji","uptime":1432,"bootTime":1721540212,"procs":59,"os":"linux","platform":"ubuntu","platformFamily":"debian","platformVersion":"22.04","kernelVersion":"5.15.153.1-microsoft-standard-WSL2","kernelArch":"x86_64","virtualizationSystem":"","virtualizationRole":"guest","hostId":"54bce3ff-141b-419c-96c4-6cd0bef53482"}
+I0721 13:00:44.241139   42131 start.go:139] virtualization:  guest
+I0721 13:00:44.436895   42131 out.go:177] 😄  minikube v1.33.1 on Ubuntu 22.04 (amd64)
+I0721 13:00:44.805424   42131 notify.go:220] Checking for updates...
+I0721 13:00:44.805945   42131 driver.go:392] Setting default libvirt URI to qemu:///system
+I0721 13:00:44.958986   42131 virtualbox.go:136] virtual box version: 7.0.20r163906
+I0721 13:00:45.141520   42131 out.go:177] ✨  Using the virtualbox driver based on user configuration
+I0721 13:00:45.282035   42131 start.go:297] selected driver: virtualbox
+I0721 13:00:45.282042   42131 start.go:901] validating driver "virtualbox" against <nil>
+I0721 13:00:45.282050   42131 start.go:912] status for virtualbox: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:7.0.20r163906
+}
+I0721 13:00:45.282992   42131 start_flags.go:310] no existing cluster config was found, will generate one from the flags 
+I0721 13:00:45.283349   42131 start_flags.go:393] Using suggested 2200MB memory alloc based on sys=7918MB, container=0MB
+I0721 13:00:45.283470   42131 start_flags.go:929] Wait components to verify : map[apiserver:true system_pods:true]
+I0721 13:00:45.283482   42131 cni.go:84] Creating CNI manager for ""
+I0721 13:00:45.283489   42131 cni.go:158] "virtualbox" driver + "docker" container runtime found on kubernetes v1.24+, recommending bridge
+I0721 13:00:45.283493   42131 start_flags.go:319] Found "bridge CNI" CNI - setting NetworkPlugin=cni
+I0721 13:00:45.283534   42131 start.go:340] cluster config:
+{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO: KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.44@sha256:eb04641328b06c5c4a14f4348470e1046bbcf9c2cbc551486e343d3a49db557e Memory:2200 CPUs:2 DiskSize:20000 Driver:virtualbox HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.30.0 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP: Port:8443 KubernetesVersion:v1.30.0 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:/home/joji:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0721 13:00:45.283607   42131 iso.go:125] acquiring lock: {Name:mka283d1181424a8302ae6cc489f7e1747cb5a0f Clock:{} Delay:500ms Timeout:10m0s Cancel:<nil>}
+I0721 13:00:45.425722   42131 out.go:177] 👍  Starting "minikube" primary control-plane node in "minikube" cluster
+I0721 13:00:45.519290   42131 preload.go:132] Checking if preload exists for k8s version v1.30.0 and runtime docker
+I0721 13:00:45.519503   42131 preload.go:147] Found local preload: /home/joji/.minikube/cache/preloaded-tarball/preloaded-images-k8s-v18-v1.30.0-docker-overlay2-amd64.tar.lz4
+I0721 13:00:45.519532   42131 cache.go:56] Caching tarball of preloaded images
+I0721 13:00:45.519792   42131 preload.go:173] Found /home/joji/.minikube/cache/preloaded-tarball/preloaded-images-k8s-v18-v1.30.0-docker-overlay2-amd64.tar.lz4 in cache, skipping download
+I0721 13:00:45.519820   42131 cache.go:59] Finished verifying existence of preloaded tar for v1.30.0 on docker
+I0721 13:00:45.520602   42131 profile.go:143] Saving config to /home/joji/.minikube/profiles/minikube/config.json ...
+I0721 13:00:45.520645   42131 lock.go:35] WriteFile acquiring /home/joji/.minikube/profiles/minikube/config.json: {Name:mka6dcec7f770467894cf5c26c1943b2e569cbe5 Clock:{} Delay:500ms Timeout:1m0s Cancel:<nil>}
+I0721 13:00:45.521046   42131 start.go:360] acquireMachinesLock for minikube: {Name:mk917be67ad32463ca633a03bcf10c8441581a90 Clock:{} Delay:500ms Timeout:13m0s Cancel:<nil>}
+I0721 13:00:45.521208   42131 start.go:364] duration metric: took 132.808µs to acquireMachinesLock for "minikube"
+I0721 13:00:45.521244   42131 start.go:93] Provisioning new machine with config: &{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO:https://storage.googleapis.com/minikube/iso/minikube-v1.33.1-amd64.iso KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.44@sha256:eb04641328b06c5c4a14f4348470e1046bbcf9c2cbc551486e343d3a49db557e Memory:2200 CPUs:2 DiskSize:20000 Driver:virtualbox HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.30.0 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP: Port:8443 KubernetesVersion:v1.30.0 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:/home/joji:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s} &{Name: IP: Port:8443 KubernetesVersion:v1.30.0 ContainerRuntime:docker ControlPlane:true Worker:true}
+I0721 13:00:45.521389   42131 start.go:125] createHost starting for "" (driver="virtualbox")
+I0721 13:00:45.617407   42131 out.go:204] 🔥  Creating virtualbox VM (CPUs=2, Memory=2200MB, Disk=20000MB) ...
+I0721 13:00:45.617801   42131 start.go:159] libmachine.API.Create for "minikube" (driver="virtualbox")
+I0721 13:00:45.617840   42131 client.go:168] LocalClient.Create starting
+I0721 13:00:45.617902   42131 main.go:141] libmachine: Reading certificate data from /home/joji/.minikube/certs/ca.pem
+I0721 13:00:45.617952   42131 main.go:141] libmachine: Decoding PEM data...
+I0721 13:00:45.617969   42131 main.go:141] libmachine: Parsing certificate...
+I0721 13:00:45.618085   42131 main.go:141] libmachine: Reading certificate data from /home/joji/.minikube/certs/cert.pem
+I0721 13:00:45.618169   42131 main.go:141] libmachine: Decoding PEM data...
+I0721 13:00:45.618186   42131 main.go:141] libmachine: Parsing certificate...
+I0721 13:00:45.618220   42131 main.go:141] libmachine: COMMAND: /usr/bin/VBoxManage --version
+I0721 13:00:45.749217   42131 main.go:141] libmachine: STDOUT:
+{
+7.0.20r163906
+}
+I0721 13:00:45.749229   42131 main.go:141] libmachine: STDERR:
+{
+}
+I0721 13:00:45.749248   42131 main.go:141] libmachine: COMMAND: /usr/bin/VBoxManage list hostonlyifs
+I0721 13:00:46.175741   42131 main.go:141] libmachine: STDOUT:
+{
+Name:            VirtualBox Host-Only Ethernet Adapter
+GUID:            f8c8e071-4d4f-4d09-bc8c-9e272249400a
+DHCP:            Disabled
+IPAddress:       192.168.56.1
+NetworkMask:     255.255.255.0
+IPV6Address:     fe80::1b84:7824:cfa1:5542
+IPV6NetworkMaskPrefixLength: 64
+HardwareAddress: 0a:00:27:00:00:24
+MediumType:      Ethernet
+Wireless:        No
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+
+}
+I0721 13:00:46.175752   42131 main.go:141] libmachine: STDERR:
+{
+}
+I0721 13:00:46.176285   42131 main.go:141] libmachine: Downloading /home/joji/.minikube/cache/boot2docker.iso from file:///home/joji/.minikube/cache/iso/amd64/minikube-v1.33.1-amd64.iso...
+I0721 13:00:46.357101   42131 main.go:141] libmachine: Creating VirtualBox VM...
+I0721 13:00:46.357108   42131 main.go:141] libmachine: Creating SSH key...
+I0721 13:00:46.415350   42131 main.go:141] libmachine: Creating disk image...
+I0721 13:00:46.415359   42131 main.go:141] libmachine: Creating 20000 MB hard disk image...
+I0721 13:00:46.415363   42131 main.go:141] libmachine: Writing magic tar header
+I0721 13:00:46.415376   42131 main.go:141] libmachine: Writing SSH key tar header
+I0721 13:00:46.415400   42131 main.go:141] libmachine: Calling inner createDiskImage
+I0721 13:00:46.415412   42131 main.go:141] libmachine: /usr/bin/VBoxManage convertfromraw stdin /home/joji/.minikube/machines/minikube/disk.vmdk 20971520000 --format VMDK
+I0721 13:00:46.415449   42131 main.go:141] libmachine: Starting command
+I0721 13:00:46.415702   42131 main.go:141] libmachine: Copying to stdin
+I0721 13:00:46.415711   42131 main.go:141] libmachine: Filling zeroes
+I0721 13:00:47.024282   42131 client.go:171] duration metric: took 1.406434809s to LocalClient.Create
+I0721 13:00:49.024357   42131 start.go:128] duration metric: took 3.502954832s to createHost
+I0721 13:00:49.024365   42131 start.go:83] releasing machines lock for "minikube", held for 3.503143542s
+W0721 13:00:49.024388   42131 start.go:713] error starting host: creating host: create: creating: write |1: broken pipe
+I0721 13:00:49.024689   42131 main.go:141] libmachine: COMMAND: /usr/bin/VBoxManage showvminfo minikube --machinereadable
+I0721 13:00:49.154282   42131 main.go:141] libmachine: STDOUT:
+{
+}
+I0721 13:00:49.154298   42131 main.go:141] libmachine: STDERR:
+{
+VBoxManage.exe: error: Could not find a registered machine named 'minikube'
+VBoxManage.exe: error: Details: code VBOX_E_OBJECT_NOT_FOUND (0x80bb0001), component VirtualBoxWrap, interface IVirtualBox, callee IUnknown
+VBoxManage.exe: error: Context: "FindMachine(Bstr(VMNameOrUuid).raw(), machine.asOutParam())" at line 3139 of file VBoxManageInfo.cpp
+}
+I0721 13:00:49.154320   42131 delete.go:82] Unable to get host status for minikube, assuming it has already been deleted: state: machine does not exist
+W0721 13:00:49.154366   42131 out.go:239] 🤦  StartHost failed, but will try again: creating host: create: creating: write |1: broken pipe
+I0721 13:00:49.154387   42131 start.go:728] Will try again in 5 seconds ...
+I0721 13:00:54.154189   42131 start.go:360] acquireMachinesLock for minikube: {Name:mk917be67ad32463ca633a03bcf10c8441581a90 Clock:{} Delay:500ms Timeout:13m0s Cancel:<nil>}
+I0721 13:00:54.154317   42131 start.go:364] duration metric: took 97.106µs to acquireMachinesLock for "minikube"
+I0721 13:00:54.154340   42131 start.go:96] Skipping create...Using existing machine configuration
+I0721 13:00:54.154346   42131 fix.go:54] fixHost starting: 
+I0721 13:00:54.154631   42131 main.go:141] libmachine: COMMAND: /usr/bin/VBoxManage showvminfo minikube --machinereadable
+I0721 13:00:54.297293   42131 main.go:141] libmachine: STDOUT:
+{
+}
+I0721 13:00:54.297308   42131 main.go:141] libmachine: STDERR:
+{
+VBoxManage.exe: error: Could not find a registered machine named 'minikube'
+VBoxManage.exe: error: Details: code VBOX_E_OBJECT_NOT_FOUND (0x80bb0001), component VirtualBoxWrap, interface IVirtualBox, callee IUnknown
+VBoxManage.exe: error: Context: "FindMachine(Bstr(VMNameOrUuid).raw(), machine.asOutParam())" at line 3139 of file VBoxManageInfo.cpp
+}
+I0721 13:00:54.297317   42131 fix.go:112] recreateIfNeeded on minikube: state=Error err=machine does not exist
+I0721 13:00:54.297330   42131 fix.go:117] machineExists: false. err=machine does not exist
+I0721 13:00:54.300331   42131 out.go:177] 🤷  virtualbox "minikube" VM is missing, will recreate.
+I0721 13:00:54.303517   42131 delete.go:124] DEMOLISHING minikube ...
+I0721 13:00:54.303522   42131 machine.go:157] backing up vm config to /var/lib/minikube/backup: [/etc/cni /etc/kubernetes]
+I0721 13:00:54.303557   42131 ssh_runner.go:195] Run: sudo mkdir -p /var/lib/minikube/backup
+I0721 13:00:54.303565   42131 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:22 SSHKeyPath:/home/joji/.minikube/machines/minikube/id_rsa Username:docker}
+W0721 13:00:54.303780   42131 sshutil.go:64] dial failure (will retry): dial tcp 127.0.0.1:22: connect: connection refused
+I0721 13:00:54.303794   42131 retry.go:31] will retry after 323.211803ms: dial tcp 127.0.0.1:22: connect: connection refused
+W0721 13:00:54.627546   42131 sshutil.go:64] dial failure (will retry): dial tcp 127.0.0.1:22: connect: connection refused
+I0721 13:00:54.627583   42131 retry.go:31] will retry after 486.367199ms: dial tcp 127.0.0.1:22: connect: connection refused
+W0721 13:00:55.114949   42131 sshutil.go:64] dial failure (will retry): dial tcp 127.0.0.1:22: connect: connection refused
+I0721 13:00:55.114996   42131 retry.go:31] will retry after 556.404662ms: dial tcp 127.0.0.1:22: connect: connection refused
+W0721 13:00:55.672160   42131 sshutil.go:64] dial failure (will retry): dial tcp 127.0.0.1:22: connect: connection refused
+I0721 13:00:55.672254   42131 retry.go:31] will retry after 324.924663ms: new client: new client: dial tcp 127.0.0.1:22: connect: connection refused
+I0721 13:00:55.997890   42131 sshutil.go:53] new ssh client: &{IP:127.0.0.1 Port:22 SSHKeyPath:/home/joji/.minikube/machines/minikube/id_rsa Username:docker}
+W0721 13:00:55.998116   42131 sshutil.go:64] dial failure (will retry): dial tcp 127.0.0.1:22: connect: connection refused
+I0721 13:00:55.998128   42131 retry.go:31] will retry after 332.421342ms: dial tcp 127.0.0.1:22: connect: connection refused
+W0721 13:00:56.331728   42131 sshutil.go:64] dial failure (will retry): dial tcp 127.0.0.1:22: connect: connection refused
+I0721 13:00:56.331744   42131 retry.go:31] will retry after 195.400848ms: dial tcp 127.0.0.1:22: connect: connection refused
+W0721 13:00:56.528718   42131 sshutil.go:64] dial failure (will retry): dial tcp 127.0.0.1:22: connect: connection refused
+I0721 13:00:56.528754   42131 retry.go:31] will retry after 758.015515ms: dial tcp 127.0.0.1:22: connect: connection refused
+W0721 13:00:57.287186   42131 sshutil.go:64] dial failure (will retry): dial tcp 127.0.0.1:22: connect: connection refused
+W0721 13:00:57.287369   42131 stop.go:55] failed to complete vm config backup (will continue): create dir: NewSession: new client: new client: dial tcp 127.0.0.1:22: connect: connection refused
+I0721 13:00:57.287410   42131 main.go:141] libmachine: Stopping "minikube"...
+I0721 13:00:57.287442   42131 main.go:141] libmachine: COMMAND: /usr/bin/VBoxManage showvminfo minikube --machinereadable
+I0721 13:00:57.450480   42131 main.go:141] libmachine: STDOUT:
+{
+}
+I0721 13:00:57.450496   42131 main.go:141] libmachine: STDERR:
+{
+VBoxManage.exe: error: Could not find a registered machine named 'minikube'
+VBoxManage.exe: error: Details: code VBOX_E_OBJECT_NOT_FOUND (0x80bb0001), component VirtualBoxWrap, interface IVirtualBox, callee IUnknown
+VBoxManage.exe: error: Context: "FindMachine(Bstr(VMNameOrUuid).raw(), machine.asOutParam())" at line 3139 of file VBoxManageInfo.cpp
+}
+I0721 13:00:57.450507   42131 main.go:141] libmachine: Error getting machine state: machine does not exist
+I0721 13:00:57.450515   42131 main.go:141] libmachine: COMMAND: /usr/bin/VBoxManage showvminfo minikube --machinereadable
+I0721 13:00:57.574915   42131 main.go:141] libmachine: STDOUT:
+{
+}
+I0721 13:00:57.574933   42131 main.go:141] libmachine: STDERR:
+{
+VBoxManage.exe: error: Could not find a registered machine named 'minikube'
+VBoxManage.exe: error: Details: code VBOX_E_OBJECT_NOT_FOUND (0x80bb0001), component VirtualBoxWrap, interface IVirtualBox, callee IUnknown
+VBoxManage.exe: error: Context: "FindMachine(Bstr(VMNameOrUuid).raw(), machine.asOutParam())" at line 3139 of file VBoxManageInfo.cpp
+}
+I0721 13:00:57.574944   42131 stop.go:66] stop err: machine does not exist
+I0721 13:00:57.574962   42131 delete.go:128] stophost failed (probably ok): Temporary Error: stop: machine does not exist
+I0721 13:00:57.575224   42131 main.go:141] libmachine: COMMAND: /usr/bin/VBoxManage showvminfo minikube --machinereadable
+I0721 13:00:57.709727   42131 main.go:141] libmachine: STDOUT:
+{
+}
+I0721 13:00:57.709741   42131 main.go:141] libmachine: STDERR:
+{
+VBoxManage.exe: error: Could not find a registered machine named 'minikube'
+VBoxManage.exe: error: Details: code VBOX_E_OBJECT_NOT_FOUND (0x80bb0001), component VirtualBoxWrap, interface IVirtualBox, callee IUnknown
+VBoxManage.exe: error: Context: "FindMachine(Bstr(VMNameOrUuid).raw(), machine.asOutParam())" at line 3139 of file VBoxManageInfo.cpp
+}
+I0721 13:00:57.709765   42131 delete.go:82] Unable to get host status for minikube, assuming it has already been deleted: state: machine does not exist
+I0721 13:00:57.709777   42131 main.go:141] libmachine: COMMAND: /usr/bin/VBoxManage showvminfo minikube --machinereadable
+I0721 13:00:57.846669   42131 main.go:141] libmachine: STDOUT:
+{
+}
+I0721 13:00:57.846694   42131 main.go:141] libmachine: STDERR:
+{
+VBoxManage.exe: error: Could not find a registered machine named 'minikube'
+VBoxManage.exe: error: Details: code VBOX_E_OBJECT_NOT_FOUND (0x80bb0001), component VirtualBoxWrap, interface IVirtualBox, callee IUnknown
+VBoxManage.exe: error: Context: "FindMachine(Bstr(VMNameOrUuid).raw(), machine.asOutParam())" at line 3139 of file VBoxManageInfo.cpp
+}
+I0721 13:00:57.882010   42131 fix.go:124] Sleeping 1 second for extra luck!
+I0721 13:00:58.882190   42131 start.go:125] createHost starting for "" (driver="virtualbox")
+I0721 13:00:58.889370   42131 out.go:204] 🔥  Creating virtualbox VM (CPUs=2, Memory=2200MB, Disk=20000MB) ...
+I0721 13:00:58.889524   42131 start.go:159] libmachine.API.Create for "minikube" (driver="virtualbox")
+I0721 13:00:58.889540   42131 client.go:168] LocalClient.Create starting
+I0721 13:00:58.889582   42131 main.go:141] libmachine: Reading certificate data from /home/joji/.minikube/certs/ca.pem
+I0721 13:00:58.889606   42131 main.go:141] libmachine: Decoding PEM data...
+I0721 13:00:58.889614   42131 main.go:141] libmachine: Parsing certificate...
+I0721 13:00:58.889649   42131 main.go:141] libmachine: Reading certificate data from /home/joji/.minikube/certs/cert.pem
+I0721 13:00:58.889664   42131 main.go:141] libmachine: Decoding PEM data...
+I0721 13:00:58.889669   42131 main.go:141] libmachine: Parsing certificate...
+I0721 13:00:58.889683   42131 main.go:141] libmachine: COMMAND: /usr/bin/VBoxManage --version
+I0721 13:00:59.053222   42131 main.go:141] libmachine: STDOUT:
+{
+7.0.20r163906
+}
+I0721 13:00:59.053230   42131 main.go:141] libmachine: STDERR:
+{
+}
+I0721 13:00:59.053249   42131 main.go:141] libmachine: COMMAND: /usr/bin/VBoxManage list hostonlyifs
+I0721 13:00:59.259051   42131 main.go:141] libmachine: STDOUT:
+{
+Name:            VirtualBox Host-Only Ethernet Adapter
+GUID:            f8c8e071-4d4f-4d09-bc8c-9e272249400a
+DHCP:            Disabled
+IPAddress:       192.168.56.1
+NetworkMask:     255.255.255.0
+IPV6Address:     fe80::1b84:7824:cfa1:5542
+IPV6NetworkMaskPrefixLength: 64
+HardwareAddress: 0a:00:27:00:00:24
+MediumType:      Ethernet
+Wireless:        No
+Status:          Up
+VBoxNetworkName: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+
+}
+I0721 13:00:59.259060   42131 main.go:141] libmachine: STDERR:
+{
+}
+I0721 13:00:59.259476   42131 main.go:141] libmachine: Downloading /home/joji/.minikube/cache/boot2docker.iso from file:///home/joji/.minikube/cache/iso/amd64/minikube-v1.33.1-amd64.iso...
+I0721 13:00:59.448368   42131 main.go:141] libmachine: Creating VirtualBox VM...
+I0721 13:00:59.448375   42131 main.go:141] libmachine: Creating SSH key...
+I0721 13:00:59.689864   42131 main.go:141] libmachine: Creating disk image...
+I0721 13:00:59.689875   42131 main.go:141] libmachine: Creating 20000 MB hard disk image...
+I0721 13:00:59.689879   42131 main.go:141] libmachine: Writing magic tar header
+I0721 13:00:59.689891   42131 main.go:141] libmachine: Writing SSH key tar header
+I0721 13:00:59.689951   42131 main.go:141] libmachine: Calling inner createDiskImage
+I0721 13:00:59.689962   42131 main.go:141] libmachine: /usr/bin/VBoxManage convertfromraw stdin /home/joji/.minikube/machines/minikube/disk.vmdk 20971520000 --format VMDK
+I0721 13:00:59.690001   42131 main.go:141] libmachine: Starting command
+I0721 13:00:59.690219   42131 main.go:141] libmachine: Copying to stdin
+I0721 13:00:59.690225   42131 main.go:141] libmachine: Filling zeroes
+I0721 13:01:00.179188   42131 client.go:171] duration metric: took 1.289641781s to LocalClient.Create
+I0721 13:01:02.179530   42131 start.go:128] duration metric: took 3.297319655s to createHost
+I0721 13:01:02.179589   42131 fix.go:56] duration metric: took 8.025240783s for fixHost
+I0721 13:01:02.179597   42131 start.go:83] releasing machines lock for "minikube", held for 8.025269384s
+W0721 13:01:02.179818   42131 out.go:239] 😿  Failed to start virtualbox VM. Running "minikube delete" may fix it: recreate: creating host: create: creating: write |1: broken pipe
+I0721 13:01:02.226719   42131 out.go:177] 
+W0721 13:01:02.265988   42131 out.go:239] ❌  Exiting due to GUEST_PROVISION: error provisioning guest: Failed to start host: recreate: creating host: create: creating: write |1: broken pipe
+W0721 13:01:02.266057   42131 out.go:239] 
+W0721 13:01:02.266738   42131 out.go:239] [31m╭───────────────────────────────────────────────────────────────────────────────────────────╮[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m│[0m    😿  If the above advice does not help, please let us know:                             [31m│[0m
+[31m│[0m    👉  https://github.com/kubernetes/minikube/issues/new/choose                           [31m│[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m│[0m    Please run `minikube logs --file=logs.txt` and attach logs.txt to the GitHub issue.    [31m│[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m╰───────────────────────────────────────────────────────────────────────────────────────────╯[0m
+I0721 13:01:02.335813   42131 out.go:177] 
+
+

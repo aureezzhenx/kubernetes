@@ -1,0 +1,17 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: nodejs-cronjob
+  labels:
+    app: nodejs-cronjob
+  annotations:
+    description: nodejs-cronjob
+spec:
+  completions: 5
+  parallelism: 2
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: nodejs-cronjob
+          image: aureezzhenx/nodejs-cronjob
