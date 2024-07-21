@@ -40,15 +40,16 @@ spec:
 
 ---
 
+# Service Load Balancer
+
 apiVersion: v1
 kind: Service
 metadata:
-  name: service-nginx-nodeport
+  name: service-nginx-loadbalancer
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: nginx ## Selector label dari Pod NGINX line 16
   ports:
     - port: 80
       targetPort: 80
-      nodePort: 30001
