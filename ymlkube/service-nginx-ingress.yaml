@@ -1,4 +1,4 @@
-# ReplicaSet dari nginx-ReplicaSex-match-expression.yaml
+# ReplicaSet Match Expression dari nginx-ReplicaSex-match-expression.yaml
 # DNS Services: http://service-nginx.default.svc.cluster.local:8080
 
 apiVersion: apps/v1

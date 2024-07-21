@@ -1,4 +1,4 @@
-# ReplicaSet dari nginx-ReplicaSex-match-expression.yaml
+# ReplicaSet Match Expression dari nginx-ReplicaSex-match-expression.yaml
 # DNS Services: http://service-nginx.default.svc.cluster.local:8080
 
 apiVersion: apps/v1
@@ -15,16 +15,16 @@ spec:
     matchLabels:
       app: nginx
     matchExpressions:
-      - key: app
-        operator: In
-        values:
-          - nginx
-      - key: environment
-        operator: In
-        values:
-          - development
-          - qa
-          - production
+    - key: app
+      operator: In
+      values:
+      - nginx
+    - key: environment
+      operator: In
+      values:
+      - development
+      - qa
+      - production
   template:
     metadata:
       name: nginx
@@ -51,5 +51,5 @@ spec:
   selector:
     app: nginx ## Selector label dari Pod NGINX line 16
   ports:
-    - port: 80
-      targetPort: 80
+  - port: 80
+    targetPort: 80
