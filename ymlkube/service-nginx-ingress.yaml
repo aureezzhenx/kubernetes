@@ -40,6 +40,8 @@ spec:
 
 ---
 
+## Service NGINX
+
 apiVersion: v1
 kind: Service
 metadata:
@@ -53,13 +55,22 @@ spec:
 
 ---
 
-apiVersion: v1
-kind: Pod
+# Ingress NGINX
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
 metadata:
-  name: nginx-curl
+  name: ingress-nginx
 spec:
-  containers:
-  - name: nginx-curl
-    image: aureezzhenx/nginx-curl
-    ports:
-    - containerPort: 80
+  ingressClassName: ingress-nginx
+  rules:
+  - host: k8s.localhost
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: service-nginx
+            port:
+              number: 80
