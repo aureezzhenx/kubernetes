@@ -6,31 +6,24 @@ kind: ReplicaSet
 metadata:
   name: nginx-rs-match-expression
   labels:
-    app: nginx
+    app: frontend
   annotations:
     description: nginx replica set match expression joji belajar
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: nginx
+      app: frontend
     matchExpressions:
     - key: app
       operator: In
       values:
-      - nginx
-    - key: environment
-      operator: In
-      values:
-      - development
-      - qa
-      - production
+      - frontend
   template:
     metadata:
-      name: nginx
+      name: frontend
       labels:
-        app: nginx
-        environment: production
+        app: frontend
     spec:
       containers:
       - name: nginx
@@ -47,17 +40,33 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: service-nginx
+  name: service-frontend
 spec:
   selector:
-    app: nginx ## Selector label dari Pod NGINX line 16
+    app: frontend
   ports:
-  - port: 8080 ## Target port buat Services
-    targetPort: 80 ## Target port nembak dari pod NGINX
+  - port: 8080
+    targetPort: 80
     name: nginx
   - port: 3000
     targetPort: 3000
     name: nodejs-web
+
+---
+
+# Service Load Balancer
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-loadbalancer-frontend
+spec:
+  type: LoadBalancer
+  selector:
+    app: frontend ## Selector label dari Pod NGINX line 16
+  ports:
+  - port: 3000
+    targetPort: 3000
 
 ---
 
