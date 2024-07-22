@@ -11,17 +11,18 @@ spec:
   selector:
     matchLabels:
       app: nginx
+      environment: production
     matchExpressions:
-      - key: app
-        operator: In
-        values:
-          - nginx
-      - key: environment
-        operator: In
-        values:
-          - development
-          - qa
-          - production
+    - key: app
+      operator: In
+      values:
+      - nginx
+    - key: environment
+      operator: In
+      values:
+      - development
+      - qa
+      - production
   template:
     metadata:
       name: nginx

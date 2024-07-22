@@ -54,22 +54,6 @@ spec:
 
 ---
 
-# Service Load Balancer
-
-apiVersion: v1
-kind: Service
-metadata:
-  name: service-loadbalancer-frontend
-spec:
-  type: LoadBalancer
-  selector:
-    app: frontend ## Selector label dari Pod NGINX line 16
-  ports:
-  - port: 3000
-    targetPort: 3000
-
----
-
 apiVersion: v1
 kind: Pod
 metadata:
