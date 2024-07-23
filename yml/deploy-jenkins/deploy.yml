@@ -1,0 +1,53 @@
+# ReplicaSet Match Expression dari nginx-ReplicaSex-match-expression.yaml
+# DNS Services: http://service-nginx.default.svc.cluster.local:8080
+
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: nginx-rs-match-expression
+  labels:
+    app: frontend
+  annotations:
+    description: nginx replica set match expression joji belajar
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: frontend
+    matchExpressions:
+      - key: app
+        operator: In
+        values:
+          - frontend
+  template:
+    metadata:
+      name: frontend
+      labels:
+        app: frontend
+    spec:
+      containers:
+        - name: nginx
+          image: nginx
+          ports:
+            - containerPort: 80
+        - name: nodejs-web
+          image: aureezzhenx/nodejs-web
+          ports:
+            - containerPort: 3000
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-frontend
+spec:
+  selector:
+    app: frontend
+  ports:
+    - port: 8080
+      targetPort: 80
+      name: nginx
+    - port: 3000
+      targetPort: 3000
+      name: nodejs-web
