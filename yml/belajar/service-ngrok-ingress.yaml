@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: ngrok
   rules:
-    - host: ${NGROK_SUBDOMAIN}.ngrok.io
+    - host: firm-primarily-lizard.ngrok-free.app
       http:
         paths:
           - path: /
@@ -15,3 +15,36 @@ spec:
                 name: game-2048
                 port:
                   number: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: game-2048
+spec:
+  ports:
+    - name: http
+      port: 80
+      targetPort: 80
+  selector:
+    app: game-2048
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: game-2048
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: game-2048
+  template:
+    metadata:
+      labels:
+        app: game-2048
+    spec:
+      containers:
+        - name: backend
+          image: aureezzhenx/2048-docker
+          ports:
+            - name: http
+              containerPort: 80
