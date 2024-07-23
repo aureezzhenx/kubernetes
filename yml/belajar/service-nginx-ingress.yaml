@@ -62,15 +62,15 @@ kind: Ingress
 metadata:
   name: ingress-nginx
 spec:
-  ingressClassName: ingress-nginx
+  ingressClassName: ngrok
   rules:
-  - host: k8s.localhost
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: service-nginx
-            port:
-              number: 80
+    - host: ee1a-158-140-162-156.ngrok-free.app
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: service-nginx
+                port:
+                  number: 80
